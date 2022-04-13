@@ -1,0 +1,50 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+body {font-family: "Noto Sans", "Noto Sans KR", sans-serif; color: #333; background: #eee;}
+.row {max-width: 1200px; margin: 0 auto; padding: 0 10px;}
+button {outline: none; background: none;}
+
+
+/* article1 구역 */
+#article1 {height: 700px; position: relative;}
+.slide_group1 {position: relative;}
+.slide_group1:hover .prev, .slide_group1:hover .next {opacity: 1;}
+.slide_group1 .slide {position: relative;}
+.slide_group1 .slide1 .img{background: url(../img/slide5.jpg) no-repeat center;
+                           height: 700px; background-size: cover;}
+.slide_group1 .slide2 .img{background: url(../img/slide4.jpg) no-repeat center;
+                           height: 700px; background-size: cover;}
+.slide_group1 .slide3 .img{background: url(../img/slide3.jpg) no-repeat center;
+                           height: 700px; background-size: cover;}
+.slide_group1 .slide4 .img{background: url(../img/slide1.jpg) no-repeat center;
+                           height: 700px; background-size: cover;}
+.slide_group1 .slide5 .img{background: url(../img/slide2.jpg) no-repeat center;
+                           height: 700px; background-size: cover;}
+.slide_group1 .slide.slick-active .img {animation: slideImg 5s both;}                           
+@keyframes slideImg {from {transform: scale3d(1,1,1)} to {transform: scale3d(1.3,1.3,1.3)}}                          
+.slide_group1 .slidetext {position: absolute; top: 48%; left: 0; right: 0; line-height: 1.5;
+                         text-align: center; color: #fff; transform: translateY(-50%); 
+                         word-break: keep-all; overflow: hidden; text-overflow: ellipsis;}
+.slide_group1 .slidetext p {font-size: 25px; font-weight: 700; padding-bottom: 20px;}
+.slide_group1 .slidetext h2 {font-size: 40px; font-weight: 500; padding-bottom: 50px;}
+.slide_group1 .slide.slick-active .slidetext h2 {animation: fadeInDown 0.7s both 0.3s;} 
+.slide_group1 .slide.slick-active .slidetext p {animation: fadeInDown 1s both 1.3s;} 
+.slide_group1 .slick-arrow {position: absolute; top: 50%; transform: translateY(-50%);
+                            border: none; background: none; z-index: 9999; font-size: 23px; 
+                            color:#fff;}
+.slide_group1 .prev {left: 70px; width: 40px; height: 40px; border-radius: 50%; cursor: pointer; opacity: 0;
+                     line-height: 40px; background:rgba(255,255,255,0.15); transition: all 0.5s;}
+.slide_group1 .next {right: 70px; width: 40px; height: 40px; border-radius: 50%; cursor: pointer; opacity: 0;
+                     line-height: 40px; background:rgba(255,255,255,0.15); transition: all 0.5s;}
+.slide_group1 .prev:hover, .slide_group1 .next:hover {background:rgba(255,255,255,0.7); color:#333}                    
+.slide_group1 .slick-dots {position: absolute; bottom: 50px; left: 0; right: 0; text-align: center;}
+.slide_group1 .slick-dots li {display: inline-block; margin: 0 5px; width: 70px; height: 4px; 
+                              background:rgba(255,255,255,0.2); position: relative;}
+.slide_group1 .slick-dots li button {width: 0px; height: 4px; background: #96740d; text-indent: -9999px; 
+                                     border: none; overflow: hidden; position: absolute; top: 0; left: 0;}
+.slide_group1 .slick-dots li.slick-active button {animation: barani 3s both;}
+@keyframes barani {from {width: 0;} to {width: 70px;}}
+#article1 .playstop {position: absolute; bottom: 45px; left: 50%; margin-left: 210px; color:rgba(255,255,255,0.2); 
+                     border: none; background: none; font-size: 14px;}
