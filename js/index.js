@@ -35,3 +35,34 @@ $('#article1 .playstop').on('click', function () {
 })
 
 
+var article2Near = $('#article2').offset().top - (wh / 2+100)
+var article3Near = $('#article3').offset().top - (wh / 2+100)
+// css에서 fixed 하지말고 on붙으면 이렇게 스크롤바내려오면 되도록 설정
+$(window).on('scroll', function () {
+    var sct = $(this).scrollTop()
+    // if (sct >= 50 && !$('#header').hasClass('on')) {
+    //     $('#header').addClass('on')
+    //     $('.gotop').addClass('on')
+    // } else if (sct < 50 && $('#header').hasClass('on')) {
+    //     $('#header').removeClass('on')
+    //     $('.gotop').removeClass('on')
+    // }
+
+    // article2
+    if (sct >= article2Near && !$('#article2').hasClass('on')) {
+        $('#article2').addClass('on')
+    } else if (sct === 0) {
+        $('#article2').removeClass('on')
+    }
+
+
+    // article3
+    if (sct >= article3Near && !$('#article3').hasClass('on')) {
+        $('#article3').addClass('on')
+    } else if (sct === 0) {
+        $('#article3').removeClass('on')
+    }
+
+
+    
+})

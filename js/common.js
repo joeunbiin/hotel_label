@@ -18,3 +18,21 @@ $('.gotop').on('click', function (e) {
     }, 500)
 })
 
+
+var ww = $(window).width();
+
+if ( ww>1024 ) {
+    $('.nav .depth1 > li').hover(
+        function(){ 
+            $(this).addClass('on')
+        },
+        function(){
+            $(this).removeClass('on')
+        }
+    )
+} else {
+    $('.nav .depth1 > li').on('click', function(){
+        $(this).toggleClass('on')
+        $(this).siblings().removeClass('on')
+    })
+}
