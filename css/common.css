@@ -8,10 +8,10 @@ button {outline: none; background: none;}
 
 
 /* Header */
-/* #header {background: #fff} */
+#header {overflow: hidden;}
 #header.on {position: fixed; width: 100%; background: #fff; top: 0; left: 0; z-index: 999999;} 
-#header h1 {background:#5c4915; padding: 5px 10px 15px; 
-            margin: 10px 0 10px 20px; display: inline-block;}
+#header h1 {background:#5c4915; padding: 5px 10px 15px; float: left;
+            margin: 10px 0 10px 20px;}
 .nav {font-size: 18px; float: right; margin-right: 200px;}
 .nav .depth1 > li {display: inline-block; font-weight: bold; position: relative;
                      padding: 30px 20px;}
