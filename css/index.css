@@ -130,7 +130,7 @@ button {outline: none; background: none;}
                  transform: translate(-50%, -50%); color: #fff;}
 .toptit h2 {font-size: 45px; font-weight: 800; padding-bottom: 30px;}
 .toptit p {font-size: 20px;}
-.topimg {height: 100%; position: relative;}
+.topimg {width: 100%; position: relative;}
 
 
 /* hotel 페이지*/
