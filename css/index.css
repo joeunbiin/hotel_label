@@ -99,6 +99,7 @@ button {outline: none; background: none;}
 #article2.on ul li:nth-child(2) {animation: fadeInUp 0.3s both 0.8s}
 #article2.on ul li:nth-child(3) {animation: fadeInUp 0.3s both 1s}  */
 
+
 /* article3 */
 #article3 {height: 300px; background: url(../img/drawing.jpg) no-repeat;
             background-attachment: fixed; background-size: cover; 
@@ -124,29 +125,204 @@ button {outline: none; background: none;}
 #article4 > p {text-align: center; color: #777; font-size: 17px; font-weight: 400;
    padding-top: 19px; margin-bottom: 50px;}
 
+
 /* sub페이지 공통 */
 .topimg .toptit {position: absolute; width: 100%; position: absolute; top: 50%; left: 50%; text-align: center; 
                  transform: translate(-50%, -50%); color: #fff;}
 .toptit h2 {font-size: 45px; font-weight: 800; padding-bottom: 30px;}
 .toptit p {font-size: 20px;}
-/* hotel 페이지*/
 .topimg {height: 100%; position: relative;}
 
-/* rooms 페이지 */
 
-/* facility, location 페이지 공통 */
+/* hotel 페이지*/
+#hocont {margin: 120px 0; overflow: hidden; padding: 0 40px;}
+.left {
+    float: left; width: 43%; padding-right: 20px;}
+.left img {height: 550px;}
+.right {padding: 0 20px; float: right; width: 57%;}
+.right h3 {font-size: 24px; font-weight: 800; padding: 60px 0 40px;}
+.right p {line-height: 1.5; color: #777;}
+
+
+/* facilities, location 페이지 공통 */
 .subtxt {padding: 20px 150px; }
 .subtxt h2 {font-size: 24px; font-weight: 800; padding: 15px 0; color: #6f591e}
-.subtxt li {padding: 5px 0; list-style: square; color: #777;}
+.subtxt li {padding: 5px 0; list-style: square; color: #777; line-height: 1.5;}
 .subtxt p {color: #777}
 .subtxt i {padding-right: 5px;}
+
 
 /* falicities 페이지 */
 .fabox {margin-top: 70px; background: rgb(250, 250, 250);}
 .fabox > .subtxt ul li:nth-child(1) {color :#907427; font-size: 21px; font-weight: 800;
-                            list-style: none; padding-bottom: 5px;}
+                                     list-style: none; padding-bottom: 5px;}
+.fabox > .subtxt:nth-of-type(2) > ul li:nth-child(1) {padding: 5px 0; list-style: square; color: #777; 
+                                                      font-size: 16px;line-height: 1.5;}
 .fabox .subtxt ul {padding: 10px 0}
+
 
 /* location 페이지 */
 .lomap {text-align: center; margin: 120px 0;}
 .lobox {background: rgb(250, 250, 250);}
+
+
+/* rooms 페이지*/
+#rocont {margin: 120px 0;}
+.roomlist {font-size: 21px; text-align: center; font-weight: 700;
+            padding: 10px 0;}
+.roomlist li {display: inline-block; position: relative; color: #777;
+              transition: all 0.3s; width: 11.7%; padding: 10px 0;}
+.roomlist li:hover {background: #efefef; color: #6f591e; cursor: pointer;}
+.roomlist li.active {font-weight: 700; background: #6f591e; color: #efefef;}
+.rooms > div {display: none;}
+.rooms > div.active {display: block;}
+.rooms {width: 85%; margin: 0 auto;}
+.slide_group2 {position: relative;}
+.slide_group2 .slide {position: relative;}
+.slide_group2 .slick-arrow {position: absolute; top: 50%; transform: translateY(-50%);
+                            border: none; background: none; z-index: 9999; font-size: 23px; 
+                            color:#fff;}
+.slide_group2 .prev {left: 80px; width: 40px; height: 40px; border-radius: 50%; cursor: pointer; opacity: 1;
+                     line-height: 40px; background:rgba(255,255,255,0.15); transition: all 0.5s;}
+.slide_group2 .next {right: 80px; width: 40px; height: 40px; border-radius: 50%; cursor: pointer; opacity: 1;
+                     line-height: 40px; background:rgba(255,255,255,0.15); transition: all 0.5s;}
+.slide_group2 .prev:hover, .slide_group2 .next:hover {background:rgba(255,255,255,0.5); color:#333; 
+                                                      cursor: pointer;}                    
+.slide_group2 .slick-dots {position: absolute; bottom: 15px; left: 0; right: 0; text-align: center;}
+.slide_group2 .slick-dots li {display: inline-block; margin: 0 5px; height: 4px; }
+.slide_group2 .slick-dots li button {width: 13px; height: 13px; border-radius: 50%; color: transparent; background:rgba(255, 255, 255, 0.5);
+                                     border: none; text-indent: -9999px}
+.slide_group2 .slick-dots li.slick-active button {background: #fff; width: 28px; border-radius: 20px;}
+.slide_group2 .slick-dots li button:hover {cursor: pointer;}
+/* stand */
+.stand .slide_group2 .slide1 .img {background: url(../img/stand/st1.jpg) no-repeat center;
+                                  height: 680px;}
+.stand .slide_group2 .slide2 .img {background: url(../img/stand/st2.jpg) no-repeat center;
+                                  height: 680px;}
+.stand .slide_group2 .slide3 .img {background: url(../img/stand/st3.jpg) no-repeat center;
+                                   height: 680px;}
+.stand .slide_group2 .slide4 .img {background: url(../img/stand/st4.jpg) no-repeat center;
+                                   height: 680px;}
+.stand .slide_group2 .slide5 .img {background: url(../img/stand/st5.jpg) no-repeat center;
+                                   height: 680px;}
+.stand .slide_group2 .slide6 .img {background: url(../img/stand/st6.jpg) no-repeat center;
+                                    height: 680px;}
+.stand .slide_group2 .slide7 .img {background: url(../img/stand/st7.jpg) no-repeat center;
+                                  height: 680px;}
+.stand .slide_group2 .slide8 .img {background: url(../img/stand/st9.jpg) no-repeat center;
+                                  height: 680px;}
+.stand .slide_group2 .slide9 .img {background: url(../img/stand/st10.jpg) no-repeat center;
+                                   height: 680px;}
+.stand .slide_group2 .slide10 .img {background: url(../img/stand/st11.jpg) no-repeat center;
+                                   height: 680px;}
+.stand .slide_group2 .slide11 .img {background: url(../img/stand/st12.jpg) no-repeat center;
+                                   height: 680px;}
+/* prem */
+.prem .slide_group2 .slide1 .img {background: url(../img/prem/pr2.jpg) no-repeat center;
+                                  height: 680px;}
+.prem .slide_group2 .slide2 .img {background: url(../img/prem/pr1.jpg) no-repeat center;
+                                  height: 680px;}
+.prem .slide_group2 .slide3 .img {background: url(../img/prem/pr3.jpg) no-repeat center;
+                                  height: 680px;}
+.prem .slide_group2 .slide4 .img {background: url(../img/prem/pr4.jpg) no-repeat center;
+                                  height: 680px;}
+.prem .slide_group2 .slide5 .img {background: url(../img/prem/pr5.jpg) no-repeat center;
+                                  height: 680px;}
+.prem .slide_group2 .slide6 .img {background: url(../img/prem/pr6.jpg) no-repeat center;
+                                  height: 680px;}
+.prem .slide_group2 .slide7 .img {background: url(../img/prem/pr7.jpg) no-repeat center;
+                                  height: 680px;}
+.prem .slide_group2 .slide8 .img {background: url(../img/prem/pr8.jpg) no-repeat center;
+                                  height: 680px;}
+.prem .slide_group2 .slide9 .img {background: url(../img/prem/pr9.jpg) no-repeat center;
+                                  height: 680px;}
+.prem .slide_group2 .slide10 .img {background: url(../img/prem/pr10.jpg) no-repeat center;
+                                  height: 680px;}
+.prem .slide_group2 .slide11 .img {background: url(../img/prem/pr11.jpg) no-repeat center;
+                                   height: 680px;}
+.prem .slide_group2 .slide12 .img {background: url(../img/prem/pr12.jpg) no-repeat center;
+                                   height: 680px;}
+.prem .slide_group2 .slide13 .img {background: url(../img/prem/pr13.jpg) no-repeat center;
+                                   height: 680px;}
+.prem .slide_group2 .slide14 .img {background: url(../img/prem/pr14.jpg) no-repeat center;
+                                   height: 680px;}
+.prem .slide_group2 .slide15 .img {background: url(../img/prem/pr15.jpg) no-repeat center;
+                                   height: 680px;}
+.prem .slide_group2 .slide16 .img {background: url(../img/prem/pr16.jpg) no-repeat center;
+                                   height: 680px;}
+.prem .slide_group2 .slide17 .img {background: url(../img/prem/pr17.jpg) no-repeat center;
+                                   height: 680px;}
+/* prempc */
+.prempc .slide_group2 .slide1 .img {background: url(../img/prem_pc/pp1.jpg) no-repeat center;
+                                    height: 680px;}
+.prempc .slide_group2 .slide2 .img {background: url(../img/prem_pc/pp2.jpg) no-repeat center;
+                                    height: 680px;}
+.prempc .slide_group2 .slide3 .img {background: url(../img/prem_pc/pp3.jpg) no-repeat center;
+                                     height: 680px;}
+.prempc .slide_group2 .slide4 .img {background: url(../img/prem_pc/pp4.jpg) no-repeat center;
+                                    height: 680px;}
+.prempc .slide_group2 .slide5 .img {background: url(../img/prem_pc/pp5.jpg) no-repeat center;
+                                    height: 680px;}     
+.prempc .slide_group2 .slide6 .img {background: url(../img/prem_pc/pp6.jpg) no-repeat center;
+                                     height: 680px;}
+.prempc .slide_group2 .slide7 .img {background: url(../img/prem_pc/pp7.jpg) no-repeat center;
+                                    height: 680px;}
+.prempc .slide_group2 .slide8 .img {background: url(../img/prem_pc/pp8.jpg) no-repeat center;
+                                     height: 680px;}
+.prempc .slide_group2 .slide9 .img {background: url(../img/prem_pc/pp9.jpg) no-repeat center;
+                                    height: 680px;}
+.prempc .slide_group2 .slide10 .img {background: url(../img/prem_pc/pp10.jpg) no-repeat center;
+                                    height: 680px;}         
+.prempc .slide_group2 .slide11 .img {background: url(../img/prem_pc/pp11.jpg) no-repeat center;
+                                     height: 680px;}                                                                           
+/* sweet */
+.sweet .slide_group2 .slide1 .img {background: url(../img/sweet/sw1.png) no-repeat center;
+                                  height: 680px;}
+.sweet .slide_group2 .slide2 .img {background: url(../img/sweet/sw2.png) no-repeat center;
+                                  height: 680px;}
+.sweet .slide_group2 .slide3 .img {background: url(../img/sweet/sw3.png) no-repeat center;
+                                   height: 680px;}
+.sweet .slide_group2 .slide4 .img {background: url(../img/sweet/sw4.png) no-repeat center;
+                                   height: 680px;}
+.sweet .slide_group2 .slide5 .img {background: url(../img/sweet/sw5.png) no-repeat center;
+                                   height: 680px;}
+.sweet .slide_group2 .slide6 .img {background: url(../img/sweet/sw6.png) no-repeat center;
+                                    height: 680px;}
+/* terra */
+.terra .slide_group2 .slide1 .img {background: url(../img/terra/te1.jpg) no-repeat center;
+                                  height: 680px;}
+.terra .slide_group2 .slide2 .img {background: url(../img/terra/te2.jpg) no-repeat center;
+                                  height: 680px;}
+.terra .slide_group2 .slide3 .img {background: url(../img/terra/te3.jpg) no-repeat center;
+                                  height: 680px;}
+.terra .slide_group2 .slide4 .img {background: url(../img/terra/te4.jpg) no-repeat center;
+                                  height: 680px;}
+.terra .slide_group2 .slide5 .img {background: url(../img/terra/te5.jpg) no-repeat center;
+                                  height: 680px;}
+.terra .slide_group2 .slide6 .img {background: url(../img/terra/te6.jpg) no-repeat center;
+                                  height: 680px;}
+.terra .slide_group2 .slide7 .img {background: url(../img/terra/te7.jpg) no-repeat center;
+                                  height: 680px;}
+.terra .slide_group2 .slide8 .img {background: url(../img/terra/te6.jpg) no-repeat center;
+                                  height: 680px;}
+.terra .slide_group2 .slide9 .img {background: url(../img/terra/te9.jpg) no-repeat center;
+                                  height: 680px;}
+.terra .slide_group2 .slide10 .img {background: url(../img/terra/te10.jpg) no-repeat center;
+                                  height: 680px;}
+.terra .slide_group2 .slide11 .img {background: url(../img/terra/te11.jpg) no-repeat center;
+                                  height: 680px;}
+.terra .slide_group2 .slide12 .img {background: url(../img/terra/te12.jpg) no-repeat center;
+                                  height: 680px;}
+/* party */
+.party .slide_group2 .slide1 .img {background: url(../img/party/pa1.jpg) no-repeat center;
+                                  height: 680px;}
+.party .slide_group2 .slide2 .img {background: url(../img/party/pa2.jpg) no-repeat center;
+                                  height: 680px;}
+.party .slide_group2 .slide3 .img {background: url(../img/party/pa3.jpg) no-repeat center;
+                                   height: 680px;}
+.party .slide_group2 .slide4 .img {background: url(../img/party/pa4.jpg) no-repeat center;
+                                   height: 680px;}
+.party .slide_group2 .slide5 .img {background: url(../img/party/pa5.jpg) no-repeat center;
+                                   height: 680px;}
+.party .slide_group2 .slide6 .img {background: url(../img/party/pa6.jpg) no-repeat center;
+                                    height: 680px;}
