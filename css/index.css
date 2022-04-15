@@ -52,9 +52,9 @@ button {outline: none; background: none;}
 
 /* article2 */
 #article2 {margin: 120px 0;}
-#article2 > h2 {text-align: center;  color: #333; font-size: 35px; font-weight: 600; 
+#article2 > h2 {text-align: center;  color: #6f591e; font-size: 35px; font-weight: 600; 
                 line-height: 50px; position:relative;}
-#article2 > h2::before {content:''; width: 120px; height: 3px; background: #88702b;
+#article2 > h2::before {content:''; width: 100px; height: 3px; background: #88702b;
                         position: absolute; top: 0px; left: 50%; transform: translate(-50%); }
 #article2 > p {text-align: center; color: #777; font-size: 17px; font-weight: 400;
                padding-top: 19px; margin-bottom: 50px;}
@@ -117,9 +117,36 @@ button {outline: none; background: none;}
 
 /* article4 */
 #article4 {margin: 120px 0}
-#article4 > h2 {text-align: center;  color: #333; font-size: 35px; font-weight: 600; 
+#article4 > h2 {text-align: center;  color: #6f591e; font-size: 35px; font-weight: 600; 
     line-height: 50px; position:relative;}
-#article4 > h2::before {content:''; width: 120px; height: 3px; background: #88702b;
+#article4 > h2::before {content:''; width: 100px; height: 3px; background: #88702b;
             position: absolute; top: 0px; left: 50%; transform: translate(-50%); }
 #article4 > p {text-align: center; color: #777; font-size: 17px; font-weight: 400;
    padding-top: 19px; margin-bottom: 50px;}
+
+/* sub페이지 공통 */
+.topimg .toptit {position: absolute; width: 100%; position: absolute; top: 50%; left: 50%; text-align: center; 
+                 transform: translate(-50%, -50%); color: #fff;}
+.toptit h2 {font-size: 45px; font-weight: 800; padding-bottom: 30px;}
+.toptit p {font-size: 20px;}
+/* hotel 페이지*/
+.topimg {height: 100%; position: relative;}
+
+/* rooms 페이지 */
+
+/* facility, location 페이지 공통 */
+.subtxt {padding: 20px 150px; }
+.subtxt h2 {font-size: 24px; font-weight: 800; padding: 15px 0; color: #6f591e}
+.subtxt li {padding: 5px 0; list-style: square; color: #777;}
+.subtxt p {color: #777}
+.subtxt i {padding-right: 5px;}
+
+/* falicities 페이지 */
+.fabox {margin-top: 70px; background: rgb(250, 250, 250);}
+.fabox > .subtxt ul li:nth-child(1) {color :#907427; font-size: 21px; font-weight: 800;
+                            list-style: none; padding-bottom: 5px;}
+.fabox .subtxt ul {padding: 10px 0}
+
+/* location 페이지 */
+.lomap {text-align: center; margin: 120px 0;}
+.lobox {background: rgb(250, 250, 250);}
