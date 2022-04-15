@@ -55,10 +55,7 @@
                 </div>
                 <div id="locont">
                     <div class="lomap">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3173.058376156397!2d126.83366591529258!3d37.317444879845254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b6f1b55240b65%3A0x38b18bbc8db99390!2z6rK96riw64-EIOyViOyCsOyLnCDri6jsm5Dqtawg6rOg7J6U64-ZIDUzNy0z!5e0!3m2!1sko!2skr!4v1649904860461!5m2!1sko!2skr"
-                            width="85%" height="420px" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <div id="daumRoughmapContainer1650028533964" class="root_daum_roughmap root_daum_roughmap_landing" style="width:85%"></div>
                     </div>
                     <div class="lobox">
                         <div class="subtxt">
@@ -131,6 +128,15 @@
     </div>
     <script src="js/common.js"></script>
     <script src="js/index.js"></script>
+    <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+    <script charset="UTF-8">
+	    new daum.roughmap.Lander({
+		    "timestamp" : "1650028533964",
+		    "key" : "29uv7",
+		    "mapHeight" : "450"
+	}).render();
+    </script>
 </body>
 
 </html>
