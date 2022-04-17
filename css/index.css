@@ -12,13 +12,13 @@ button {outline: none; background: none;}
 .slide_group1 {position: relative;}
 .slide_group1:hover .prev, .slide_group1:hover .next {opacity: 1;}
 .slide_group1 .slide {position: relative;}
-.slide_group1 .slide1 .img{background: url(../img/slide5.jpg) no-repeat center;
+.slide_group1 .slide1 .img{background: url(../img/slide1.jpg) no-repeat center;
                            height: 700px; background-size: cover;}
-.slide_group1 .slide2 .img{background: url(../img/slide4.jpg) no-repeat center;
+.slide_group1 .slide2 .img{background: url(../img/slide2.jpg) no-repeat center;
                            height: 700px; background-size: cover;}
 .slide_group1 .slide3 .img{background: url(../img/slide3.jpg) no-repeat center;
                            height: 700px; background-size: cover;}
-.slide_group1 .slide4 .img{background: url(../img/slide1.jpg) no-repeat center;
+.slide_group1 .slide4 .img{background: url(../img/slide5.jpg) no-repeat center;
                            height: 700px; background-size: cover;}
 .slide_group1 .slide5 .img{background: url(../img/slide4.jpg) no-repeat center;
                            height: 700px; background-size: cover;}
@@ -135,7 +135,11 @@ button {outline: none; background: none;}
 .right {padding: 0 20px; float: right; width: 57%;}
 .right h3 {font-size: 24px; font-weight: 800; padding: 60px 0 40px;}
 .right p {line-height: 1.5; color: #777;}
-
+.plbox {display: flex; flex-wrap: wrap;}
+.plbox img {width: 32%; margin-right: 2%; margin-top: 18px; }
+.plbox img:nth-of-type(3) {margin-right: 0;} 
+.plbox img:nth-of-type(6) {margin-right: 0;}
+.plbox img:nth-of-type(9) {margin-right: 0;} 
 
 /* facilities, location 페이지 공통 */
 .subtxt {padding: 20px 150px; }

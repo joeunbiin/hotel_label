@@ -8,41 +8,35 @@ button {outline: none; background: none;}
 
 
 /* Header */
-#header {overflow: hidden;}
-#header.on {position: fixed; width: 100%; background: #fff; top: 0; left: 0; z-index: 999999;} 
-#header h1 {background:#5c4915; padding: 5px 10px 15px; float: left;
-            margin: 10px 0 10px 20px;}
-.nav {font-size: 18px; float: right; margin-right: 200px;}
+#header {background: #fff;}
+#header h1 {padding: 9px 10px 12px; margin: 13px 0 8px 20px;
+            float: left; width: 220px;}
+#header .nav {float: right; font-size: 18px; margin-right: 200px;}
 .nav .depth1 > li {display: inline-block; font-weight: bold; position: relative;
-                     padding: 30px 20px;}
+                   padding: 36px 20px 31px;}
 .nav .depth1 > li:hover > a {color: #88702b}
-.nav .depth2 {position: absolute; top: 100%; left: 0; width: 160px; transition: all 0.5s;
-              z-index: 999; background: #fff; display: none;}
-/* .nav .depth1 > li:hover .depth2 {display: block; } */
+.nav .depth1 > li .depth2 {position: absolute; z-index: 99999; top: 100%; background: #fff;
+                           left: 0; width: 160px; transition: all 0.5s; display: none;}
 .nav .depth2 > li > a {padding: 13px 20px; display: block; font-size: 15px; 
                        color: #555; transition: all 0.5s;}
 .nav .depth2 > li:hover a {background: #88702b; color:#fff}
 .nav .depth1 > li.on .depth2 {display: block;}
 
-
-
-
 /* Footer */
 #footer {margin-top: 80px;}
-.info {background: #222; padding: 10px 0 15px 0; color: #ccc; }
+.info {background: #ddd; padding: 10px 0 15px 0; color: #333 }
 .infofst {display: flex; justify-content: space-between; }
-.infofst img {width: 130px; padding: 10px 0 20px;}
+.infofst img {width: 180px; padding: 10px 0 20px; color: #fff;}
 .infofst .contact i {font-size: 23px; padding: 0 10px 10px;
                      margin-top: 21px;}
 .company ul {padding-bottom: 7px;}
 .company li {display: inline-block; position: relative; padding: 0px 10px;
              font-size: 13px; }
-.company li::after {content: ''; width: 1px; background: rgba(255, 255, 255, 0.5);
+.company li::after {content: ''; width: 1px; background: rgba(51, 51, 51, 0.5);
                     position: absolute; top: 3px; bottom: 2px; right: -2px;}
 .company li:first-child {padding-left: 0;}
 .company li:last-child::after {display: none}
-.copy {background: #000; padding: 10px; font-size: 12px; color: #aaa;
-       }
+.copy {background: #000; padding: 10px; font-size: 12px; color: #aaa;}
 
 
 
