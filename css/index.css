@@ -24,11 +24,11 @@ button {outline: none; background: none;}
                            height: 700px; background-size: cover;}
 .slide_group1 .slide.slick-active .img {animation: slideImg 5s both;}                           
 @keyframes slideImg {from {transform: scale3d(1,1,1)} to {transform: scale3d(1.3,1.3,1.3)}}                          
-.slide_group1 .slidetext {position: absolute; top: 52%; left: 0; right: 0; line-height: 1.5;
+.slide_group1 .slidetext {position: absolute; top: 49%; left: 0; right: 0; line-height: 1.3;
                          text-align: center; color: #fff; transform: translateY(-50%); 
                          word-break: keep-all; overflow: hidden; text-overflow: ellipsis;}
 .slide_group1 .slidetext p {font-size: 28px; font-weight: 700; padding-bottom: 20px;}
-.slide_group1 .slidetext h2 {font-size: 40px; font-weight: 500; padding-bottom: 50px;}
+.slide_group1 .slidetext h2 {font-size: 40px; font-weight: 500; padding-bottom: 60px;}
 .slide_group1 .slide.slick-active .slidetext h2 {animation: fadeInDown 0.7s both 0.3s;} 
 .slide_group1 .slide.slick-active .slidetext p {animation: fadeInDown 1s both 1.3s;} 
 .slide_group1 .slick-arrow {position: absolute; top: 50%; transform: translateY(-50%);
