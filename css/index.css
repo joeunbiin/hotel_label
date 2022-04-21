@@ -169,12 +169,10 @@ button {outline: none; background: none;}
 #rocont {margin: 120px 0;}
 .roomlist {font-size: 21px; text-align: center; font-weight: 700;
             padding: 10px 0;}
-.roomlist li {display: inline-block; position: relative; color: #777;
-              transition: all 0.3s; width: 11.7%; padding: 10px 0;}
-.roomlist li:hover {background: #efefef; color: #6f591e; cursor: pointer;}
-.roomlist li.active {font-weight: 700; background: #6f591e; color: #efefef;}
-.rooms > div {display: none;}
-.rooms > div.active {display: block;}
+.roomlist a {display: inline-block; position: relative; color: #777;
+            transition: all 0.3s; width: 11.7%; padding: 10px 0;}
+.roomlist a:hover {background: #efefef; color: #6f591e; cursor: pointer;}
+.roomlist .it {font-weight: 700; background: #6f591e; color: #efefef;}
 .rooms {width: 85%; margin: 0 auto;}
 .slide_group2 {position: relative;}
 .slide_group2 .slide {position: relative;}
@@ -193,6 +191,8 @@ button {outline: none; background: none;}
                                      border: none; text-indent: -9999px}
 .slide_group2 .slick-dots li.slick-active button {background: #fff; width: 28px; border-radius: 20px;}
 .slide_group2 .slick-dots li button:hover {cursor: pointer;}
+
+
 /* stand */
 .stand .slide_group2 .slide1 .img {background: url(../img/stand/st1.jpg) no-repeat center;
                                   height: 680px;}
