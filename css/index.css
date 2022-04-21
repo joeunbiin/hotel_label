@@ -128,6 +128,8 @@ button {outline: none; background: none;}
 
 
 /* hotel 페이지*/
+
+.topimg {width: 100%; position: relative;}
 #hocont {margin: 120px 0; overflow: hidden; padding: 0 40px;}
 .left {
     float: left; width: 43%; padding-right: 20px;}
