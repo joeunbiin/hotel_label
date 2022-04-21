@@ -8,7 +8,7 @@ button {outline: none; background: none;}
 
 
 /* Header */
-#header {background: #fff;}
+#header {background: #fff; position: fixed; z-index: 99999; width: 100%;}
 #header h1 {padding: 9px 10px 12px; margin: 13px 0 8px 20px;
             float: left; width: 220px;}
 #header .nav {float: right; font-size: 18px; margin-right: 200px;}

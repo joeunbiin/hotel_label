@@ -8,7 +8,7 @@ button {outline: none; background: none;}
 
 
 /* article1 구역 */
-#article1 {height: 700px; position: relative;}
+#article1 {height: 700px; position: relative; border-top: 80px solid #fff;}
 .slide_group1 {position: relative;}
 .slide_group1:hover .prev, .slide_group1:hover .next {opacity: 1;}
 .slide_group1 .slide {position: relative;}
@@ -51,7 +51,7 @@ button {outline: none; background: none;}
 
 
 /* article2 */
-#article2 {margin: 120px 0;}
+#article2 {margin: 200px 0;}
 #article2 > h2 {text-align: center;  color: #6f591e; font-size: 35px; font-weight: 600; 
                 line-height: 50px; position:relative;}
 #article2 > h2::before {content:''; width: 100px; height: 3px; background: #88702b;
@@ -121,15 +121,15 @@ button {outline: none; background: none;}
 
 /* sub페이지 공통 */
 .topimg .toptit {position: absolute; width: 100%; position: absolute; top: 50%; left: 50%; text-align: center; 
-                 transform: translate(-50%, -50%); color: #fff;}
+                 transform: translate(-50%, -50%); color: #fff;
+                 }
 .toptit h2 {font-size: 45px; font-weight: 800; padding-bottom: 30px;}
 .toptit p {font-size: 20px;}
 .topimg {width: 100%; position: relative;}
 
 
 /* hotel 페이지*/
-
-.topimg {width: 100%; position: relative;}
+.topimg {width: 100%; position: relative; border-top: 83px solid #fff;}
 #hocont {margin: 120px 0; overflow: hidden; padding: 0 40px;}
 .left {
     float: left; width: 43%; padding-right: 20px;}
@@ -166,7 +166,11 @@ button {outline: none; background: none;}
 .root_daum_roughmap { margin: auto !important; }
 
 /* rooms 페이지*/
-#rocont {margin: 120px 0;}
+.toptitr {padding: 30px 0 ; text-align: center; background: #6f591e; color: #fff; 
+           border-top: 83px solid #fff;}
+.toptitr h2 {font-size: 38px; font-weight: 800;}
+
+#rocont {margin: 80px 0 120px;}
 .roomlist {font-size: 21px; text-align: center; font-weight: 700;
             padding: 10px 0;}
 .roomlist a {display: inline-block; position: relative; color: #777;
