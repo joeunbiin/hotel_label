@@ -2,7 +2,8 @@
 
 ### https://joeunbiin.github.io/hotel_label/
 
---------------------------------
+### 🛠 Javascript, HTML, CSS, JQuery
+---------------
 
 🗣
 ##### 실제 'Hotel LABEL'에 의뢰받아 제작한 사이트로,
