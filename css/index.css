@@ -279,17 +279,19 @@ button {outline: none; background: none;}
 .prempc .slide_group2 .slide11 .img {background: url(../img/prem_pc/pp11.jpg) no-repeat center;
                                      height: 680px;}                                                                           
 /* sweet */
-.sweet .slide_group2 .slide1 .img {background: url(../img/sweet/sw1.png) no-repeat center;
+.sweet .slide_group2 .slide1 .img {background: url(../img/sweet/sw1.jpg) no-repeat center;
                                   height: 680px;}
-.sweet .slide_group2 .slide2 .img {background: url(../img/sweet/sw2.png) no-repeat center;
+.sweet .slide_group2 .slide2 .img {background: url(../img/sweet/sw2.jpg) no-repeat center;
                                   height: 680px;}
-.sweet .slide_group2 .slide3 .img {background: url(../img/sweet/sw3.png) no-repeat center;
+.sweet .slide_group2 .slide3 .img {background: url(../img/sweet/sw3.jpg) no-repeat center;
                                    height: 680px;}
-.sweet .slide_group2 .slide4 .img {background: url(../img/sweet/sw4.png) no-repeat center;
+.sweet .slide_group2 .slide4 .img {background: url(../img/sweet/sw4.jpg) no-repeat center;
                                    height: 680px;}
-.sweet .slide_group2 .slide5 .img {background: url(../img/sweet/sw5.png) no-repeat center;
+.sweet .slide_group2 .slide5 .img {background: url(../img/sweet/sw5.jpg) no-repeat center;
                                    height: 680px;}
-.sweet .slide_group2 .slide6 .img {background: url(../img/sweet/sw6.png) no-repeat center;
+.sweet .slide_group2 .slide6 .img {background: url(../img/sweet/sw6.jpg) no-repeat center;
+                                    height: 680px;}
+.sweet .slide_group2 .slide7 .img {background: url(../img/sweet/sw7.jpg) no-repeat center;
                                     height: 680px;}
 /* terra */
 .terra .slide_group2 .slide1 .img {background: url(../img/terra/te1.jpg) no-repeat center;
@@ -328,4 +330,10 @@ button {outline: none; background: none;}
 .party .slide_group2 .slide5 .img {background: url(../img/party/pa5.jpg) no-repeat center;
                                    height: 680px;}
 .party .slide_group2 .slide6 .img {background: url(../img/party/pa6.jpg) no-repeat center;
+                                    height: 680px;}
+.party .slide_group2 .slide7 .img {background: url(../img/party/pa7.jpg) no-repeat center;
+                                   height: 680px;}
+.party .slide_group2 .slide8 .img {background: url(../img/party/pa8.jpg) no-repeat center;
+                                   height: 680px;}
+.party .slide_group2 .slide9 .img {background: url(../img/party/pa9.jpg) no-repeat center;
                                     height: 680px;}
